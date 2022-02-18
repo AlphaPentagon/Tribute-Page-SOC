@@ -1,1 +1,107 @@
-/* Copy and paste your CSS from CodePen into here */
+/* Main content */
+
+#main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: Helvetica, Sans-Serif;
+    font-size: 18px;
+   }
+  
+  body {
+    background-color: rgb(192,192,192);
+    margin: 0;
+  }
+  
+  /* Header Section */
+  
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0px;
+  }
+  
+  h1 {
+    font-size: 2.5em;
+    margin-bottom: 0px;
+  }
+  
+  h2 {
+    margin-top: 10px;
+    font-size: 1.4em;
+    font-weight: lighter;
+  }
+  
+  /* Main image */
+  
+  #img-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: white;
+    padding-bottom: 20px;
+    
+  }
+  
+  #image {
+    width: 50%;
+    max-width: 1300px;
+    border-radius: 2px;
+  }
+  
+  #img-caption {
+    margin: 20px 0 0 0;
+    font-style: italic;
+    font-size: 1em;  
+  }
+  
+  /* Main article */
+  
+  #tribute-info {
+    padding-top: 50px;
+    padding-bottom: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+  }
+  
+  .tribute-headings {
+    font-size: 1.5em;
+  }
+  
+  #description-container {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  ul {
+    margin-top: 0px;
+    padding-top: 0px;
+  }
+  
+  li {
+    padding: 5px;
+  }
+  
+  /* Footer */
+  
+  footer {
+    font-size: 1.3em;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    text-align: center;
+  }
+  
+  #tribute-link {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 1.1em;
+  }
