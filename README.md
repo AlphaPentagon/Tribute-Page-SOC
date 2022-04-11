@@ -1,1 +1,1 @@
-I have added this sentance through Git
+I have added this sentence through Git
